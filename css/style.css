@@ -1,0 +1,261 @@
+/*resets*/
+body {
+	margin: 0;
+}
+
+p {
+	margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.header-empresa {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #ececec;
+}
+
+.header-menu {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+	width: 	60%;
+}
+
+.menus {
+	width: 351px;
+	height: 12px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.menulink-home {
+	color: #525252;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menulink {
+	color: #525252;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.menulink:hover, .menulink-home:hover {
+	color: #787575;
+}
+
+.menulink:active, .menulink-home:active {
+	color: #a6a2a2;
+}
+
+.telefone-menu {
+	width: 190px;
+	height: 50px;
+	background-color: #f86a42;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.telefone {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.slick-prev, .slick-next {
+    z-index: 9999;
+}
+
+.carrosel-descricao {
+	position: absolute;
+	color: #000000;
+	font-family: "Arial Black";
+	font-size: 60px;
+	font-weight: bold;
+	text-transform: uppercase;
+	display: none;
+	justify-content: flex-start;
+	align-items: center;
+	width: 1056px;
+	height: 308px;
+}
+
+.empresa-conteudo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.conteudo-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.conteudo-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 20px;
+	width: 835px;
+}
+
+.titulo-imagem-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 815px;
+}
+
+.a-empresa {
+	background: white;
+
+}
+
+.titulo-empresa {
+	color: #f86a42;
+	font-family: "Arial Black";
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.descricao-container{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 10px;
+}
+
+.descricao-empresa {
+	color: #2c2c2c;
+	font-family: "Arial MT";
+	font-size: 14px;
+	font-weight: 400;
+	margin: 0px 40px;
+}
+
+.saiba-mais {
+	width: 185px;
+	height: 40px;
+	background-color: #faae00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	cursor: pointer;
+}
+
+.saiba-mais:hover {
+	background: #f2bb3d;
+}
+
+.saiba-mais:active {
+	background: #f7d179;
+}
+
+.saiba-mais-texto {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.descricao-saiba-mais-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.veja-equipe {
+	width: 835px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.veja-equipe-botao {
+	width: 243px;
+	height: 40px;
+	background-color: #faae00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px;
+	cursor: pointer;
+}
+
+.veja-equipe-texto {
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.veja-equipe-botao:hover {
+	background: #f2bb3d;
+}
+
+.veja-equipe-botao:active {
+	background: #f7d179;
+}
+
+.equipe-imgs {
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.equipe-imgs-format {
+	width: 276px; 
+	height: 207px;
+	margin: 15px;
+}
+
+.footer-empresa {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 105px;
+	background-color: #ececec;
+}
+
+.endereco {
+	color: #525252;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.email {
+	color: #525252;
+	font-family: "Arial Black";
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.tel {
+	color: #525252;
+	font-family: "Arial Black";
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}

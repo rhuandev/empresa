@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Titulo</title>
+	<title>Empresa X</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="slick/css/slick-theme.css"/>
 </head>
 <body>
+	<header class="header-empresa">
+		<div class="header-menu">
+			<img src="img/logo-empresa.png">
+			<div class="menus">
+				<a href="#" class="menulink-home">Home</a>
+				<a href="#" class="menulink">Empresa</a>
+				<a href="#" class="menulink">Contato</a>
+			</div>
+			<div class="telefone-menu">
+				<p class="telefone">
+					+55 11 3564-3099
+				</p>
+			</div>
+		</div>
+	</header>
 
-	<script language="javascript" src="js/script.js"></script>
-</body>
+	<section class="slider-area slider">
+		<div><img src="img/carrosel-img1.png"></div>
+		<div><img src="img/carrosel-img2.png"></div>
+		<div><img src="img/carrosel-img3.png"></div>
+	</section>
+
+	<div class="empresa-conteudo">
+			<div class="conteudo-container">
+				<div class="titulo-imagem-container">
+					<p class="titulo-empresa">a empresa</p>
+				</div>
+				<div class="descricao-container">
+					<img src="img/equipe.png">
+					<div class="descricao-saiba-mais-container">
+						<p class="descricao-empresa">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor purus molestie, iaculis odio et, consectetur eros. Cras dapibus, ante vel sollicitudin porttitor, velit lorem efficitur elit, id tristique nulla odio vitae magna. Curabitur dignissim nunc in consectetur ullamcorper. Praesent gravida gravida tortor. Donec in ligula turpis. Duis ut urna id turpis hendrerit sagittis id sit amet nibh. Integer pellentesque felis maximus, pharetra ex ut, auctor quam. Nullam dignissim tellus non diam hendrerit dignissim. Curabitur hendrerit risus pellentesque elit molestie, ac viverra ligula facilisis. Praesent iaculis leo sit amet eros pharetra, quis rhoncus est rhoncus.
+						</p>
+						<div class="saiba-mais">
+							<p class="saiba-mais-texto">Saiba mais »</p>
+						</div>
+					</div>
+				</div>
+				<p class="descricao-equipe">
+					Duis ut urna id turpis hendrerit sagittis id sit amet nibh. Integer pellentesque felis maximus, pharetra ex ut, auctor quam. Nullam dignissim tellus non diam hendrerit dignissim. Curabitur hendrerit risus pellentesque elit molestie, ac viverra ligula facilisis. Praesent iaculis leo sit amet eros pharetra, quis rhoncus est rhoncus.
+				</p>
+				<div class="veja-equipe">
+					<div class="veja-equipe-botao" onclick="showEquipe()">
+						<p class="veja-equipe-texto">Veja nossa equipe »</p>
+					</div>
+				</div>
+				<div class="equipe-imgs" id="equipe">
+					<img src="img/equipe.png" class="equipe-imgs-format">
+					<img src="img/equipe.png" class="equipe-imgs-format">
+					<img src="img/equipe.png" class="equipe-imgs-format">
+				</div>
+			</div>
+	</div>
+
+	<footer class="footer-empresa">
+		<p class="endereco">
+			Rua Genérica, nº 123 <br>
+			Centro - Santo André/SP
+		</p>
+		<p class="email">
+			contato@empresax.com.br
+		</p>
+		<p class="tel">
+			+55 11 3564-3099
+		</p>
+	</footer>
+
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="slick/js/slick.min.js"></script>
+	<script>
+		$('.slider-area').slick({
+		  dots: true,
+		  infinite: true,
+		  speed: 500,
+		  fade: true,
+		  cssEase: 'linear',
+		  arrow: true
+		});
+	</script>
+</body>	
 </html>
