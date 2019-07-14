@@ -2,15 +2,40 @@
 <html>
 <head>
 	<title>Empresa X</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="slick/css/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="slick/css/slick-theme.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<header class="header-empresa">
+		<nav>
+			<div class="logo">
+				<img src="img/logo-empresa.png" class="logo-img">
+				<div class="burger" onclick="openMenu()">
+					<div class="line1"></div>
+					<div class="line2"></div>
+					<div class="line3"></div>
+				</div>
+			</div>
+			<ul class="nav-links" id="links">
+				<li><a href="#" class="menulink-home">Home</a></li>
+				<li><a href="#" class="menulink">Empresa</a></li>
+				<li><a href="#" class="menulink">Contato</a></li>
+				<li>
+					<div class="telefone-menu">
+						<p class="telefone">
+							+55 11 3564-3099
+						</p>
+					</div>
+				</li>
+			</ul>
+		</nav>
+
+<!-- 
 		<div class="header-menu">
-			<img src="img/logo-empresa.png">
+			<img src="img/logo-empresa.png" class="logo">
 			<div class="menus">
 				<a href="#" class="menulink-home">Home</a>
 				<a href="#" class="menulink">Empresa</a>
@@ -21,7 +46,7 @@
 					+55 11 3564-3099
 				</p>
 			</div>
-		</div>
+		</div> -->
 	</header>
 
 	<section class="slider-area slider">
@@ -36,7 +61,7 @@
 					<p class="titulo-empresa">a empresa</p>
 				</div>
 				<div class="descricao-container">
-					<img src="img/equipe.png">
+					<img src="img/equipe.png" class="equipe-img">
 					<div class="descricao-saiba-mais-container">
 						<p class="descricao-empresa">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi tempor purus molestie, iaculis odio et, consectetur eros. Cras dapibus, ante vel sollicitudin porttitor, velit lorem efficitur elit, id tristique nulla odio vitae magna. Curabitur dignissim nunc in consectetur ullamcorper. Praesent gravida gravida tortor. Donec in ligula turpis. Duis ut urna id turpis hendrerit sagittis id sit amet nibh. Integer pellentesque felis maximus, pharetra ex ut, auctor quam. Nullam dignissim tellus non diam hendrerit dignissim. Curabitur hendrerit risus pellentesque elit molestie, ac viverra ligula facilisis. Praesent iaculis leo sit amet eros pharetra, quis rhoncus est rhoncus.

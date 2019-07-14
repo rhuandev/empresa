@@ -1,9 +1,11 @@
 function showEquipe() {	
 	var equipe = document.getElementById("equipe");
-	
-	if(equipe.style.display === "flex"){
-		equipe.style.display = "none";
-	}else {
-		equipe.style.display = "flex";
-	}
+	equipe.classList.toggle("equipe-show");
+}
+
+
+function openMenu() {
+	var botao = document.getElementById("links");
+	botao.classList.toggle('animated');
+
 }
